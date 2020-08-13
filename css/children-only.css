@@ -1,0 +1,7 @@
+.children > .page_item {
+	display: none;
+}
+
+.children > .page_item.current_page_item {
+	display:block;
+}

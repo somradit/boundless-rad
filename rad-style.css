@@ -1,0 +1,356 @@
+﻿/*
+Theme Name:	Boundless Radiology 2015
+Description:	Radiology child of Boundless theme
+Author:		Zachary Eagle zeagle@uw.edu
+Template:	uw-2014-master
+Version:	0.0.2 
+*/
+
+.centered {
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+}
+
+.aligncenter {
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+}
+
+
+.uw-breadcrumbs span{
+	max-width:300px;
+}
+
+/*Remove the weird grey circle/target on teaching case questions*/
+.fui-radio-unchecked:before, .fui-radio-checked:before {
+	display:none;
+}
+
+/*Remove H2 top margin*/
+.uw-body h2{
+	margin-top:0px;
+}
+
+/*Style to keep three columns from blowing up and floating left.
+  Applied in the row style under cell class
+ */
+.three-column{
+	max-width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.faculty-small-listing{
+	display:block;
+	margin-left:105px;
+}
+.right-space{
+	margin-right: 16px;
+}
+.uw-thinstrip .uw-wordmark{
+	max-width:300px;
+	height: auto;
+	position: absolute;
+	left: 150px;
+	top: 4px;
+	background-image:none;
+	background-size:0px;
+}
+
+/*Move the sidebar nav out of the header*/
+.uw-sidebar-menu {
+    transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+}
+ul.uw-sidebar-menu {
+    padding-bottom: 50px;
+}
+
+.uw-sidebar .widget_categories .widgettitle:before {
+    width: 100px;
+    background-color: #b7a57a;
+}
+
+.uw-sidebar .widget_categories .widgettitle:after {
+    width: 40px;
+    -webkit-transform: skewX(-25deg) skewY(0);
+    -o-transform: skewX(-25deg) skewY(0);
+    transform: skewX(-25deg) skewY(0);
+    -webkit-transform: skew(-25deg, 0);
+    -ms-transform: skewX(-25deg) skewY(0);
+    transform: skew(-25deg, 0);
+    left: 80px;
+    background-color: white;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+	.uw-thinstrip .uw-wordmark{
+		left:100px;
+		-o-transform: scale(0.8,.8);
+		-webkit-transform: scale(0.8,.8);
+		-ms-transform: scale(0.8,.8);
+		transform: scale(0.8,.8);
+	}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+	.uw-thinstrip div.align-right #search-quicklinks {
+		position:relative;
+	}
+	
+	.uw-thinstrip {
+		height: 90px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+.uw-thinstrip .uw-wordmark {
+	width: 200px;
+	left: 5px;
+	top: 7px;
+	}
+.uw-thinstrip .uw-patch {
+	display: none;
+}
+
+.metaslider .caption-wrap {
+	position:relative!important;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+	#spacer{
+		height: 58px;
+		margin-bottom: 2px;
+		width: 100%;
+		box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	}
+}
+
+
+.block-image{
+	margin-top: 0px;
+	margin-bottom:-15px;
+}
+
+.block {
+	display:block;
+}
+
+.zero-margin{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.five-margin {
+	margin-top:0px;
+	margin-bottom:5px;
+}
+
+.dawgdrops-item.dawgdrops-item a {
+	padding-bottom: 5px;
+}
+
+.dawgdrops-inner {
+	padding: 0px;
+}
+
+.dawgdrops-menu {
+	top:40px!important;
+}
+
+#pl-1363 .panel-grid-cell .so-panel {
+	margin-bottom: 0px;
+}
+
+#pg-1363-1 {
+	margin-top: -35px;
+}
+
+.uw-body.container {
+	margin-bottom:0px;
+}
+
+.textwidget .table{
+	margin-bottom:0px;
+}
+
+.match-table-height {
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+  background-color: #f9f9f9;
+}
+
+.match-table-height-container {
+	overflow:hidden;
+	margin-bottom:30px;
+}
+
+#mobile-relative.frontpage button.uw-mobile-menu-toggle {
+	right:0px;
+	top: 25px;
+}
+
+.dawgdrops-item:last-child {
+	float:right;
+}
+.dawgdrops-item a:after {
+	background:none;
+}
+
+.table a {
+	display:block;
+	border:0!important;
+}
+.altRows td:hover{
+	background-color:grey!important;
+}
+
+a {
+	color:black;
+}
+.uw-body-copy a{
+	color: #4b2e83;
+	text-decoration: underline;
+} 	
+a:focus {
+	color:black;
+}
+
+a:hover {
+	color:black!important;
+}
+
+.equiptable{
+	height:0px;
+}
+.no-stripes > tbody > tr:nth-child(odd) > td{
+	background: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+	.stacked-table{
+		width:100%
+		}
+}
+
+@media only screen and (min-width: 601px) {
+	.stacked-table{
+		width:50%;
+		float:left;
+	}
+}
+
+.tags {
+	background-color:#d1d1d1;
+	border-radius:5px;
+	padding: 3px;
+}
+
+.facultylist{
+	clear:both;
+}
+
+.facultylistimage {
+	float:left;
+	max-width:100px;
+	margin:10px;
+	
+}
+
+.muscle-atlas-list { 
+     list-style-type: none;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 10px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 10px; /* Firefox */
+    column-gap: 10px;
+}
+
+@media only screen and (min-width: 767px) {
+
+.muscle-atlas-list-4 { 
+     list-style-type: none;
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+    -webkit-column-gap: 10px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 10px; /* Firefox */
+    column-gap: 10px;
+}
+}
+.muscle-atlas-list-4 a {
+	color: #4b2e83;
+	text-decoration: underline;
+}
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
+
+@media only screen and (max-width: 767px) {
+
+.muscle-atlas-list-4 { 
+     list-style-type: none;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 10px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 10px; /* Firefox */
+    column-gap: 10px;
+}
+}
+
+
+
+/*Quicklinks fixes*/
+#uw-container #quicklinks ul#little-links li:nth-child(7), #uw-container #quicklinks ul#little-links li:nth-child(6){
+	margin-left: 0px;
+}
+
+#uw-container #quicklinks ul#little-links li:nth-child(7):before, #uw-container #quicklinks ul#little-links li:nth-child(6):before  {
+	display:none;
+}
+
+/*Fixing mobile slider background overlay*/
+@media only screen and (max-width: 767px){
+.metaslider img{
+	position:relative;
+	z-index:1;
+}
+}
+
+/*Hide Sibling Pages in Nav, for No Hero Children Only Sidebar*/
+.no-siblings .current_page_parent>.children>.page_item:not(.current_page_item){
+	display:none;
+}
+
+/*Box Shadow for Jackie*/
+.box-shadow{
+	box-shadow: 10px 10px 5px #888888;
+}
+
+/*Hide title for MRX*/
+.page-id-7255 h1{
+	color: #b7a57a;
+}
+
+.uw-body p.date{
+	margin-bottom:0px!important;
+}
+
+/*Fix Twitter Margin*/
+.twitter-follow-button{
+	margin:0px;
+}
+
+.uw-admin-template a:hover span{
+	z-index:100;
+}
+
+/*smooth scrolling*/
+html {
+	scroll-behavior: smooth;
+}
