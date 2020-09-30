@@ -68,7 +68,7 @@ Version:	0.0.3
     -webkit-transform: translateY(50px);
 }
 ul.uw-sidebar-menu {
-    padding-bottom: 50px;
+    margin-bottom: 50px!important;
 }
 
 .uw-sidebar .widget_categories .widgettitle:before {
