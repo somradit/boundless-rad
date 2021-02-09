@@ -207,3 +207,9 @@ function wpb_sender_name( $original_email_from ) {
 // Hooking up our functions to WordPress filters 
 add_filter( 'wp_mail_from', 'wpb_sender_email' );
 add_filter( 'wp_mail_from_name', 'wpb_sender_name' );
+
+add_action( 'after_setup_theme', 'add_faceboard_size' );
+function add_faceboard_size() {
+	add_theme_support( 'post-thumbnails' );
+	add_image_size('faceboard', 731, 1024, array('center', 'center'));
+};
