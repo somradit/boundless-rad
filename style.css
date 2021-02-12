@@ -506,3 +506,8 @@ h1.uw-site-title-blank{
 html {
 	scroll-behavior: smooth;
 }
+
+.rad-accordion div{
+	color: #4b2e83;
+	font-size: 1.125em!important;
+}
